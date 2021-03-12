@@ -27,6 +27,12 @@ And finally restart the ZSH session:
 exec zsh
 ```
 
+## Fonts
+
+Setup fonts for Powerlevel10k theme as described here:
+
+https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+
 ## Extra
 
 Link to config file for top:
