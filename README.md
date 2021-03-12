@@ -2,7 +2,9 @@
 
 ## Installation
 
-Assuming that zsh is already installed and current shell, manually setup oh-my-zsh as usual and cleanup dummy custom directory:
+Assuming that zsh is already installed and current shell...
+
+Manually setup [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) as usual and cleanup the dummy custom directory:
 ```
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 rm -rf ~/.oh-my-zsh/custom
