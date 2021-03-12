@@ -27,3 +27,14 @@ And finally restart the ZSH session:
 exec zsh
 ```
 
+## Extra
+
+Link to config file for top:
+```
+ln -sf ~/.oh-my-zsh/custom/cfg/toprc ~/.toprc
+```
+and VIM:
+```
+ln -sf ~/.oh-my-zsh/custom/cfg/vimrc ~/.vimrc
+```
+
