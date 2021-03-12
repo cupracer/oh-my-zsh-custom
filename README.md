@@ -1,4 +1,4 @@
-# oh-my-zsh-custom
+# ohmyzsh-custom
 
 ## Installation
 
@@ -11,11 +11,11 @@ rm -rf ~/.oh-my-zsh/custom
 ```
 Add this project either via SSH
 ```
-git clone --recurse-submodules git@github.com:cupracer/oh-my-zsh-custom.git ~/.oh-my-zsh/custom
+git clone --recurse-submodules git@github.com:cupracer/ohmyzsh-custom.git ~/.oh-my-zsh/custom
 ```
 or HTTPS
 ```
-git clone --recurse-submodules https://github.com/cupracer/oh-my-zsh-custom.git ~/.oh-my-zsh/custom
+git clone --recurse-submodules https://github.com/cupracer/ohmyzsh-custom.git ~/.oh-my-zsh/custom
 ```
 Set symbolic links to the pre-defined config files:
 ```
