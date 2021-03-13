@@ -18,10 +18,22 @@ or HTTPS
 git clone --recurse-submodules https://github.com/cupracer/ohmyzsh-custom.git ~/.oh-my-zsh/custom
 ```
 Set symbolic links to the pre-defined config files:
+
+.zshrc:
 ```
 ln -sf ~/.oh-my-zsh/custom/cfg/zshrc ~/.zshrc
-ln -sf ~/.oh-my-zsh/custom/cfg/p10k.zsh ~/.p10k.zsh
 ```
+
+Choose .p10k.zsh with a lot of icons:
+```
+ln -sf ~/.oh-my-zsh/custom/cfg/p10k.zsh.bragger ~/.p10k.zsh
+```
+
+or only a few icons:
+```
+ln -sf ~/.oh-my-zsh/custom/cfg/p10k.zsh.light ~/.p10k.zsh
+```
+
 And finally restart the ZSH session:
 ```
 exec zsh
