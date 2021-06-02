@@ -7,6 +7,9 @@ if [ "2" -gt $LINES ] ; then
     . ~/.ssh-agent-env-vars
 	ssh-add
 else
-    . ~/.ssh-agent-env-vars
+	if [ -z "$SSH_AUTH_SOCK" ] && [ -z "$SSH_AGENT_PID" ]; then
+    	. ~/.ssh-agent-env-vars
+	fi
+	echo Agent pid $SSH_AGENT_PID
 fi
 
