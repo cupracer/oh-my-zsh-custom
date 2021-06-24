@@ -10,6 +10,6 @@ else
 	if [ -z "$SSH_AUTH_SOCK" ] && [ -z "$SSH_AGENT_PID" ]; then
     	. ~/.ssh-agent-env-vars
 	fi
-	echo Agent pid $SSH_AGENT_PID
+#	echo Agent pid $SSH_AGENT_PID
 fi
 
